@@ -22,7 +22,7 @@ function authenticate(req, res, next) {
 
   const [, token] = authHeader.split(' ')
   if (token !== SECRET_KEY) {
-    res.status(401).json({ message: 'invalid token' });
+    res.status(402).json({ message: 'invalid token' });
     return
   }
 
