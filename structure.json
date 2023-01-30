@@ -1,0 +1,10 @@
+[
+    {
+        "type": "pothole",
+        "timestamp": "YYYY-MM-DD hh:mm:ss",
+        "location": {
+            "latitude": "27.922521760395117",
+            "longitude": "78.0773400365815"
+        }
+    }
+]
